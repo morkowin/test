@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #000;
+}
+#container{
+	width: 600px;
+	margin: 0 auto;
+}
+header nav #topmenu{
+	list-style: none;
+	margin-left: 167px;
+}
+header nav #topmenu li{
+	float: left;
+	margin: 5px;
+	font-size: 150%;
+}
+.clear{
+	clear: both;
+}
+header nav #topmenu li a{
+	text-decoration: none;
+}
+header nav #topmenu li a:hover{
+	text-decoration: underline;
+	color: red;
+}
+#checklogin,#checkemail{
+	cursor: pointer;
+	color: #00f;
+}
+#checklogin:hover,#checkemail:hover{
+	color: #f00;
+	text-decoration: underline;
+}
+.errors{
+	color: red;
+	text-align: center;
+	font-size: 130%;
+}
