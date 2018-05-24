@@ -1,0 +1,20 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #eee;
+}
+.form_auth{
+	width: 300px;
+	margin: 100px auto;
+}
+.form_auth > div{
+	padding: 4px;
+	width: 100%;
+}
+#name{
+	margin-left: 20px;
+}
+.value{
+	width: 300px;
+	margin: 100px auto;
+}
